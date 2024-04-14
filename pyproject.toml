@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pyoxidizer-example"
+version = "0.1.0"
+description = ""
+authors = ["ezirmusitua <jferroal@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.13"
+pdfplumber = "^0.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
